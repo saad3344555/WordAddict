@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_height="match_parent"
+        android:layout_width="250dp"
+        android:layout_gravity="left"
+        android:fitsSystemWindows="true"
+        app:itemIconTint="@color/Gray"
+        app:itemTextColor="@color/item_text_colors"
+        app:headerLayout="@layout/drawer"
+        app:menu="@menu/nav_menu"
+        />
+
+</LinearLayout>

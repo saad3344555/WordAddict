@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+    <string name="developed_by_saad_abdul_qadir">Developed By Saad Abdul Qadir</string>
+    <string name="help">Search for word by tapping a search icon in action bar</string>
+    <string name="About">This app is developed by the XXX software house. XXX is the CEO of this private software company
+    located in Karachi,Pakistan.</string>
+
+    <string name="Open">Open drawer</string>
+    <string name="Close">cClose drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/aboutg"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/about"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="About"
+            />
+    </group>
+
+    <group
+        android:id="@+id/helpg"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/help"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Help"
+           />
+
+    </group>
+
+    <group
+        android:id="@+id/addg"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/add"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Add a word"
+            />
+
+    </group>
+
+    <group
+        android:id="@+id/quizg"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/quiz"
+            android:icon="@drawable/ic_create_black_24dp"
+            android:title="Take quiz"
+            />
+
+    </group>
+
+    <group
+        android:id="@+id/explorationg"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/exploration"
+            android:icon="@drawable/ic_explore_black_24dp"
+            android:title="Exploration"
+            />
+
+    </group>
+
+    <group
+        android:id="@+id/randomnwordg"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/randomnword"
+            android:icon="@drawable/ic_shuffle_black_24dp"
+            android:title="Random Word"
+            />
+
+    </group>
+
+</menu>

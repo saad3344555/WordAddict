@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/White"
+    android:layout_height="65dp"
+    android:weightSum="1"
+    android:gravity="top">
+
+       <TextView
+
+           android:layout_height="match_parent"
+           android:layout_width="match_parent"
+           android:layout_marginLeft="10dp"
+           android:id="@+id/suggesttext_view"
+           android:text="Hello"
+           android:textSize="15dp"
+           android:textColor="@color/Black"
+           android:paddingTop="20dp"
+           android:focusable="false"
+           android:clickable="false"
+           android:layout_centerHorizontal="true"
+           android:layout_alignParentTop="true"
+           android:layout_weight="4.25" />
+
+</LinearLayout>

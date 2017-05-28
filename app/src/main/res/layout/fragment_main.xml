@@ -1,0 +1,230 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="com.example.saq.dictionary.MainFragment">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#C70039"
+        android:layout_weight="1"
+        android:weightSum="1"
+        >
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight=".6"
+        android:weightSum="1"
+        >
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/information_button"
+            android:background="#C70039"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_menu_info_details"
+            android:layout_weight=".5"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/add_button"
+            android:src="@android:drawable/ic_menu_add"
+            android:scaleType="fitCenter"
+            android:background="#C70039"
+            android:layout_weight=".5"/>
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            android:layout_weight=".3"
+            android:weightSum="1"
+
+            >
+          <TextView
+
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="Get the information you want about the application."
+              android:textAlignment="center"
+              android:id="@+id/textView3"
+              android:textColor="@color/White"
+              android:layout_weight=".5"
+
+              />
+
+            <TextView
+
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Add your desired word by requesting the admin."
+               android:id="@+id/textView2"
+               android:textAlignment="center"
+               android:textColor="@color/White"
+               android:layout_weight=".5"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#FF5733"
+            android:layout_weight="1"
+            android:weightSum="1"
+            >
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight=".6"
+                android:weightSum="1"
+                >
+
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/direct_search"
+                    android:background="#FF5733"
+                    android:scaleType="fitCenter"
+                    android:src="@android:drawable/ic_menu_search"
+                    android:layout_weight=".5"/>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/randomn_word"
+                    android:src="@drawable/ic_shuffle_black_24dp"
+                    android:scaleType="fitCenter"
+                    android:background="#FF5733"
+                    android:layout_weight=".5"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight=".3"
+                android:weightSum="1"
+
+                android:textAlignment="viewStart">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Lets you to search directly by tapping on it."
+                    android:textAlignment="center"
+                    android:id="@+id/textView7"
+                    android:textColor="@color/White"
+                    android:layout_weight=".5" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Lets you to search a random word. "
+                    android:id="@+id/textView6"
+                    android:textAlignment="center"
+                    android:textColor="@color/White"
+                    android:layout_weight=".5"
+
+                    />
+            </LinearLayout>
+
+       </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#FFC300"
+        android:layout_weight="1"
+        android:weightSum="1"
+        >
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight=".6"
+            android:weightSum="1"
+            >
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/quiz_button"
+                android:background="#FFC300"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_create_black_24dp"
+                android:layout_weight=".5"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/exploration_button"
+                android:src="@drawable/ic_explore_black_24dp"
+                android:scaleType="fitCenter"
+                android:background="#FFC300"
+                android:layout_weight=".5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            android:layout_weight=".3"
+            android:weightSum="1"
+
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Take quiz to test your learning skills"
+                android:textAlignment="center"
+                android:id="@+id/textView9"
+                android:textColor="@color/White"
+                android:layout_weight=".5"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Take a peek on your progress and compare your progress to the up to date words. "
+                android:id="@+id/textView8"
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:layout_weight=".5"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
